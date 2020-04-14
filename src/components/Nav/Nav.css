@@ -2,17 +2,17 @@
     background: #3b621c;
 }
 
-.header-nav li{
+.headerLink {
     display: inline-block;
     padding: 15px 25px 15px;
+    text-decoration: none;
 }
 
-
-.header-nav li a, .header-nav li a:visited {
+.headerLink:visited {
     color: #fff;
     text-decoration: none;
     display: block;
 }
-.header-nav li:hover {
+.headerLink:hover {
     background: #487922;
 }

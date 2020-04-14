@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 class Nav extends React.Component {
@@ -9,9 +10,9 @@ class Nav extends React.Component {
           <div className="container">
             <nav>
               <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Пункты обмена</a></li>
-                <li><a href="#">Контакты</a></li>
+                <Link className="headerLink" to="/">Главная</Link>
+                <Link className="headerLink" to="/about">О нас</Link>
+                <Link className="headerLink" to="/contacts">Контакты</Link>
               </ul>
             </nav>
           </div>
